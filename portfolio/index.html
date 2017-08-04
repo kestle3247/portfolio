@@ -1,26 +1,94 @@
 <!DOCTYPE html>
 <html>
-<head> 
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="main.css">
-	<title></title>
+	<title>Kyle Estle Resume</title>
 </head>
 <body>
-
-<ul>
-  <li><a href="index.html">Home</a></li>
-  <li><a href="contactinfo.html">Contact Info</a></li>
-  <li class="dropdown">
-    <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
-    <div class="dropdown-content">
-      <a href="resume.html">Resume</a>
-      <a href="#">Link 2</a>
-      <a href="#">Link 3</a>
+  <ul class="nav nav-tabs">
+    <li role="presentation" class="active"><a href="#">Home</a></li>
+    <li role="presentation"><a href="Projects.html">Projects</a></li>
+    <li role="presentation"><a href="resume.html">Resume</a></li>
+  </ul>
+    <p class="row">
+      <div class="row divcolor">
+      <span class="col-md-1"></span>
+      <span class="title col-md-7">Kyle Estle<br /><p class="title2">Junior Web Developer & Hardware Technician</p>
+    </p><br /><br /><br /><br /><br /><p class="title2 text-center">
+      My Goal is to learn as much as I can about coding and meet other people who are in the same field.
+    </p></span>
+      <div class="divcolor col-md-3">
+        <div class="thumbnail">
+          <br />
+          <img height="200px" width="200px" class="img-circle center-block" src="pictures/picture of me.jpg">
+          <div class="caption">
+            <span class="text-center title2"><p class="text-center">
+              Kyle Estle Portfolio
+            </p></span>
+            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingOne">
+                  <h4 class="panel-title">
+                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      <span class="glyphicon glyphicon-menu-right"></span>
+                      <span class="text">Contact info</span>
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                  <div class="panel-body">
+                      <img height="40px" width="40px" src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png" />
+                      &nbsp;&nbsp;<a href="mailto:estlekyle@gmail.com">estlekyle@gmail.com</a><br /><br />
+                      <img height ="40px" width="40px" src="http://www.freeiconspng.com/uploads/dentist-rochester-ny--contemporary-dentistry-rochester-ny-24.png" />
+                      &nbsp;&nbsp;<a href="tel:1-847-555-5555">720-335-9251</a><br /><br />
+                      <img height ="40px" width="40px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/768px-LinkedIn_logo_initials.png" />
+                      &nbsp;&nbsp;<A target ="_blank" href="https://www.linkedin.com/in/kyle-estle-ab9a48148/">LinkedIn</A>
+                    </p>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingTwo">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      <span class="glyphicon glyphicon-menu-right"></span>
+                      <span class="text">Other Information</span>
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                  <div class="panel-body">
+                    <span class="text">Currently Enrolled at CodeCraft School of Technology, Attended Centaurus High School. Graduated 2017.
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingThree">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      <span class="glyphicon glyphicon-menu-right"></span>
+                      <span class="text">Things I Like</span>
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                  <div class="panel-body">
+                    I enjoy swimming, coding, working with hardware, gaming, and meeting new people.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <span class="col-md-1"></span>
+          </div>
+        </div>
+      </div>
     </div>
-  </li>
-</ul>
+  </div>
 
-<h3></h3>
-<p></p>
+    </p>
 
 </body>
 </html>
